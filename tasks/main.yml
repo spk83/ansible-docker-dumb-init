@@ -3,6 +3,6 @@
   become: yes
   become_user: root
   get_url: 
-    url: {{dumb_init_download_url}}
-    dest: {{dumb_init_install_dir}}
+    url: "{{dumb_init_download_url}}"
+    dest: "{{dumb_init_install_dir}}"
     mode: 0755
