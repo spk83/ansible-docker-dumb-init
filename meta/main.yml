@@ -1,0 +1,32 @@
+---
+galaxy_info:
+  author: Vishal Shah
+  description: installs dumb-init in container environments
+  company: BlackRock
+  license:
+    - MIT
+  min_ansible_version: 2.0
+  platforms:
+    - name: EL
+      versions:
+        - 7
+    - name: Fedora
+      versions:
+        - 23
+        - 24
+    - name: Ubuntu
+      versions:
+        - trusty
+        - xenial
+    - name: alpine
+      versions:
+        - edge
+        - 3.3
+        - 3.4
+    - name: Debian
+      versions:
+        - jessie
+
+  galaxy_tags:
+    - development
+  
