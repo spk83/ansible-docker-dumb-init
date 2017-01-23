@@ -1,7 +1,7 @@
 ---
 galaxy_info:
   author: Vishal Shah
-  description: installs dumb-init in container environments
+  description: Installs dumb-init for container environments
   company: BlackRock
   license:
     - MIT
@@ -9,19 +9,19 @@ galaxy_info:
   platforms:
     - name: EL
       versions:
-        - 7
+        - all
     - name: Fedora
       versions:
-        - 23
+        - all
     - name: Ubuntu
       versions:
-        - trusty
-        - xenial
-    - name: Debian
+        - all
+    - name: Alpine
       versions:
-        - jessie
+        - all
 
   galaxy_tags:
-    - development
+    - docker
+    - init
   
 dependencies: []

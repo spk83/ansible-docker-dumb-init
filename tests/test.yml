@@ -1,4 +1,0 @@
----
-- hosts: localhost
-  roles:
-    - spk83.dumb-init
