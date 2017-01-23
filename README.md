@@ -1,9 +1,8 @@
-andrewrothstein.dumb-init
+spk83.dumb-init
 ===========================
-[![Build Status](https://travis-ci.org/andrewrothstein/ansible-dumb-init.svg?branch=master)](https://travis-ci.org/andrewrothstein/ansible-dumb-init)
+[![Build Status](https://travis-ci.org/spk83/ansible-dumb-init.svg?branch=master)](https://travis-ci.org/spk83/ansible-dumb-init)
 
-Installs [dumb-init](https://github.com/Yelp/dumb-init).
-
+Installs [dumb-init](https://github.com/Yelp/dumb-init) binary 
 
 Requirements
 ------------
@@ -26,7 +25,7 @@ Example Playbook
 ```yml
 - hosts: servers
   roles:
-    - andrewrothstein.dumb-init
+    - spk83.dumb-init
 ```
 
 License

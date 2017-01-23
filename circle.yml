@@ -11,7 +11,7 @@ dependencies:
 
 test:
   override:
-    - ? | 
+    - ? |
           circle-matrix <<"EHD"
             env:
               - OS=alpine_3.3
@@ -30,7 +30,6 @@ test:
               - OS=debian_stretch
               - OS=ubuntu_trusty
               - OS=ubuntu_xenial
-
             script:
               - >-
                 dcb
@@ -38,8 +37,7 @@ test:
                 --upstreamapp docker-ansible-role
                 --write ${OS}
                 --build ${OS}
-                --push ${OS}
-                
+                --push ${OS}              
           EHD
       :
         parallel: true
