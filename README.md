@@ -1,5 +1,5 @@
-dumb-init
-=========
+dumb-init [![CircleCI](https://circleci.com/gh/spk83/ansible-dumb-init/tree/master.svg?style=shield)](https://circleci.com/gh/spk83/ansible-dumb-init/tree/master)
+=======================
 
 Installs dumb-init binary (https://github.com/Yelp/dumb-init)
 
