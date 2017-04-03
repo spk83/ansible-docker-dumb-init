@@ -36,5 +36,5 @@ MIT
 
 Author Information
 ------------------
-
-Andrew Rothstein <andrew.rothstein@gmail.com>
+* Vishal Shah <vishal.shah@nyu.edu>
+* Andrew Rothstein <andrew.rothstein@gmail.com>
