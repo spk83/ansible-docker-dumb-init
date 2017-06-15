@@ -22,6 +22,9 @@ galaxy_info:
     - name: Debian
       versions:
         - jessie
+    - name: Alpine
+      versions:
+        - all
 
   galaxy_tags:
     - development
