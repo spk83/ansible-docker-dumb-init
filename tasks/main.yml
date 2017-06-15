@@ -1,8 +1,24 @@
 ---
-- name: download the dumb-init binary and mark it executable
+- name: make install directory...
+  become: yes
+  become_user: root
+  file:
+    path: '{{dumb_init_install_dir}}'
+    state: directory
+    mode: 0755
+
+- name: download...
   become: yes
   become_user: root
   get_url: 
-    url: "{{dumb_init_download_url}}"
-    dest: "{{dumb_init_install_dir}}"
+    url: '{{dumb_init_download_url}}'
+    dest: '{{dumb_init_install_dir}}/dumb-init'
     mode: 0755
+
+- name: link...
+  become: yes
+  become_user: root
+  file:
+    src: '{{dumb_init_install_dir}}/dumb-init'
+    dest: '{{dumb_init_install_parent_dir}}/dumb-init'
+    state: link
