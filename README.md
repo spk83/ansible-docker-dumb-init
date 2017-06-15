@@ -1,6 +1,6 @@
-[![CircleCI](https://circleci.com/gh/andrewrothstein/ansible-dumb-init.svg?style=svg)](https://circleci.com/gh/andrewrothstein/ansible-dumb-init)
 andrewrothstein.dumb-init
 ===========================
+[![Build Status](https://travis-ci.org/andrewrothstein/ansible-dumb-init.svg?branch=master)](https://travis-ci.org/andrewrothstein/ansible-dumb-init)
 
 Installs [dumb-init](https://github.com/Yelp/dumb-init).
 
