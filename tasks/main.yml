@@ -13,6 +13,7 @@
   get_url: 
     url: '{{dumb_init_download_url}}'
     dest: '{{dumb_init_install_dir}}/dumb-init'
+    checksum: '{{dumb_init_checksum}}'
     mode: 0755
 
 - name: link...
