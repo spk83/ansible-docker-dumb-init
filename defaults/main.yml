@@ -1,10 +1,14 @@
 ---
 dumb_init_version: '1.2.1'
-dumb_init_architecture: 'amd64'
+dumb_init_architecture: amd64
 
-# https://github.com/Yelp/dumb-init/releases/download/v1.2.1/sha256sums
 dumb_init_checksums:
-  amd64: sha256:057ecd4ac1d3c3be31f82fc0848bf77b1326a975b4f8423fe31607205a0fe945
+  # https://github.com/Yelp/dumb-init/releases/download/v1.2.0/sha256sums
+  '1.2.0':
+    amd64: sha256:81231da1cd074fdc81af62789fead8641ef3f24b6b07366a1c34e5b059faf363
+  # https://github.com/Yelp/dumb-init/releases/download/v1.2.1/sha256sums
+  '1.2.1':
+    amd64: sha256:057ecd4ac1d3c3be31f82fc0848bf77b1326a975b4f8423fe31607205a0fe945
 
 dumb_init_url: https://github.com/yelp/dumb-init/releases/download
 
